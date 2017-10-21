@@ -115,7 +115,6 @@
   </div>
 
   <script type="text/javascript">
-    // Question: What does this code do?
     $("#submit").on("click", function(event) {
       event.preventDefault();
       var answers = {
@@ -135,7 +134,6 @@
       .done(function(data) {
         console.log("post api: " + answers);
       });
-
     });
   </script>
 </body>
